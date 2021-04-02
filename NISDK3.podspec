@@ -22,8 +22,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.osx.deployment_target = "10.14"
   
-  s.platform = :ios, '10.0'
-  s.platform = :osx, '10.14'
   s.source_files = 'NISDK3/Classes/**/*'
   
   # s.resource_bundles = {
